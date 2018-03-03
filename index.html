@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stlyesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Trivia</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1 id="trivia">Trivia</h1>
+        </div>
+    </div>
+
+    <div class="container start_screen">
+        <div class="text-center">
+            <button type="button" id="start_button" class="btn btn-dark btn-lg">Start</button>
+        </div>
+    </div>
+
+    <div class="container game_over">
+        <div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h3>Correct:</h3>
+                    <h3>Incorrect:</h3>
+                    <h3>Unanswered:</h3>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container game_content" >
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Time Remaining:</h2>
+            </div>
+            <div class="col-md-6">
+                <span id="time"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container game_content">
+        <div class="row">
+            <div class="col">
+                <p>Which one of these names WASN'T a character in Friends?</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="custom-control custom-radio">
+                        <input type="radio" value = "false" id="a1q1" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="a1q1">Joey</label>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="custom-control custom-radio">
+                        <input type="radio" value = "false" id="a2q1" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label" for="a2q1">Rachael</label>
+                </div>
+            </div>
+            <div class="col-md-3">
+                    <div class="custom-control custom-radio">
+                            <input type="radio" value = "false" id="a3q1" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="a3q1">Chandler</label>
+                    </div>
+            </div>
+            <div class="col-md-3">
+                    <div class="custom-control custom-radio">
+                            <input type="radio" value = "true" id="a4q1" name="customRadio" class="custom-control-input">
+                            <label class="custom-control-label" for="a4q1">Mona</label>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container game_content">
+            <div class="row">
+                <div class="col">
+                    <p>What was Chandler Bing's middle name?</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="custom-control custom-radio">
+                            <input type="radio" value = "false" id="a1q2" name="customRadio2" class="custom-control-input">
+                            <label class="custom-control-label" for="a1q2">Michael</label>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="custom-control custom-radio">
+                            <input type="radio" value = "true" id="a2q2" name="customRadio2" class="custom-control-input">
+                            <label class="custom-control-label" for="a2q2">Muriel</label>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                        <div class="custom-control custom-radio">
+                                <input type="radio" value = "false" id="a3q2" name="customRadio2" class="custom-control-input">
+                                <label class="custom-control-label" for="a3q2">Marsha</label>
+                        </div>
+                </div>
+                <div class="col-md-3">
+                        <div class="custom-control custom-radio">
+                                <input type="radio" value = "false" id="a4q2" name="customRadio2" class="custom-control-input">
+                                <label class="custom-control-label" for="a4q2">Mando</label>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>

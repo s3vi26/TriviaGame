@@ -1,0 +1,9 @@
+.jumbotron {
+    background-color: blanchedalmond;
+    background-image: url("../images/Friends.jpg");
+    background-size: cover
+}
+#trivia {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center
+}
