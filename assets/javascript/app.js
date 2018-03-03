@@ -36,12 +36,12 @@ $( document ).ready(function () {
                     game.score()
                 },
         score:
-            function score() {
-                for (i=0; i<game.ans_array.length; i++) {
-                    console.log(this.ans_array[i])
-    
-                }
-            },    
+        function score() {
+            for (i=0; i<game.ans_array.length; i++) {
+                let temp = this.ans_array[i]
+                console.log(this.ans_array[i])
+            }
+        },   
     }
     $("#start_button").on("click", game.start)
     start_screen()
