@@ -9,7 +9,7 @@ $( document ).ready(function () {
             function start(){
                 $(".start_screen").hide()
                 $(".game_content").show()
-                game.time = 5
+                game.time = 25
                 $("#time").text(game.time)
                 game.display_time()
             },
