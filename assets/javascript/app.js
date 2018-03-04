@@ -39,9 +39,19 @@ $( document ).ready(function () {
         function score() {
             for (i=0; i<game.ans_array.length; i++) {
                 let temp = this.ans_array[i]
-                console.log(this.ans_array[i])
+                console.log($(temp).val())
+                if ($(temp).val() === "true") {
+                    game.correct++
+                    $("#correct_count").text(game.correct)
+
+                }
+                if ($(temp).val() === "false") {
+                    game.incorrect++
+                    $("#incorrect_count").text(game.incorrect)
+                }
+
             }
-        },   
+        },    
     }
     $("#start_button").on("click", game.start)
     start_screen()
