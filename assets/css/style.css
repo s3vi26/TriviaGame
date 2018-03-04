@@ -1,21 +1,19 @@
-div {
-    background-color: dimgray;
-}
+
 .jumbotron {
     background-color: whitesmoke;
     background-image: url("../images/Friends2.png");
     background-size: cover
 }
-#trivia {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align:center;
-    color:dodgerblue;
-    text-shadow: dimgray;
-    
-
-}
 .bing {
     background-image: url("../images/Friends.jpg");
     background-size: cover;
 
+}
+.game_content {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+}
+.game_over {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
 }
