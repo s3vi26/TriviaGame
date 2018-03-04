@@ -9,7 +9,7 @@ $( document ).ready(function () {
             function start(){
                 $(".start_screen").hide()
                 $(".game_content").show()
-                game.time = 25
+                game.time = 5
                 $("#time").text(game.time)
                 game.display_time()
             },
@@ -49,7 +49,7 @@ $( document ).ready(function () {
                     game.incorrect++
                     $("#incorrect_count").text(game.incorrect)
                 }
-
+                
             }
         },    
     }
